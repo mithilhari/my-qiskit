@@ -18,13 +18,13 @@ The oracle is a quantum circuit that:
 
 Formally, the oracle operates as:
 
-\[
+$$
 O|x⟩ =
 \begin{cases}
--|x⟩ & \text{if } x \text{ is the solution (correct password)} \\
-|x⟩ & \text{otherwise}
+-\,|x⟩ & \text{if } x \text{ is the solution (the correct password)} \\
+\;\;\;|x⟩ & \text{otherwise}
 \end{cases}
-\]
+$$
 
 This “marking” does not reveal the password but allows Grover’s amplification process to increase the probability of measuring the correct state.
 
